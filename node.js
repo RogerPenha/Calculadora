@@ -2,6 +2,7 @@ function inserir(num){
     var número = document.getElementById('tela').innerHTML;
     document.getElementById('tela').innerHTML = número + num
 }
+
 function limpar(){
     document.getElementById('tela').innerHTML = ''
 }
@@ -16,8 +17,4 @@ function calcular(){
     if (resultado){
         document.getElementById('tela').innerHTML = eval(resultado);
     }
-}
-
-function printar(){
-    window.print()
 }
